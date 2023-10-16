@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/env_sc_library/static/css/main.1aa7a24f.css",
+    "main.js": "/env_sc_library/static/js/main.2101abbd.js",
+    "static/js/787.194244cc.chunk.js": "/env_sc_library/static/js/787.194244cc.chunk.js",
+    "static/media/back-page-bg.jpg": "/env_sc_library/static/media/back-page-bg.3a56975fa83b746156e6.jpg",
+    "static/media/cover-page-bg.jpg": "/env_sc_library/static/media/cover-page-bg.363ef061644cd958c910.jpg",
+    "static/media/Ubuntu.ttf": "/env_sc_library/static/media/Ubuntu.1cbb1b79a23478cc89ad.ttf",
+    "static/media/book5.png": "/env_sc_library/static/media/book5.53902ae65741c660a994.png",
+    "static/media/book2.png": "/env_sc_library/static/media/book2.714f902674ed0e7fe4c1.png",
+    "static/media/libook5.png": "/env_sc_library/static/media/libook5.9a18bb29553a60757010.png",
+    "static/media/book1.png": "/env_sc_library/static/media/book1.800ed591d7d47a0cd8bd.png",
+    "static/media/Galada.ttf": "/env_sc_library/static/media/Galada.96f42dd34b5558ca6dd1.ttf",
+    "static/media/libook9.png": "/env_sc_library/static/media/libook9.50cd16a00cd1d4c6e3b5.png",
+    "static/media/book3.png": "/env_sc_library/static/media/book3.81ae00b40f9dacf507ac.png",
+    "static/media/libook10.png": "/env_sc_library/static/media/libook10.dfc18e14154065d5f175.png",
+    "static/media/libook7.png": "/env_sc_library/static/media/libook7.ca8a400fd3cc2037c7a2.png",
+    "static/media/book4.png": "/env_sc_library/static/media/book4.1c21753e1af9d235621c.png",
+    "static/media/libook6.png": "/env_sc_library/static/media/libook6.213590b72f02ca5a2664.png",
+    "static/media/libook1.png": "/env_sc_library/static/media/libook1.aeaa8ad0535bc1cd8878.png",
+    "static/media/libook4.png": "/env_sc_library/static/media/libook4.e8a2a71a1406845636f1.png",
+    "static/media/libook3.png": "/env_sc_library/static/media/libook3.b140ffca426e5b1bf6a5.png",
+    "static/media/libook12.png": "/env_sc_library/static/media/libook12.cc96b371e4f2040ee914.png",
+    "static/media/libook11.png": "/env_sc_library/static/media/libook11.79485709a1d37f947efc.png",
+    "static/media/libook2.png": "/env_sc_library/static/media/libook2.b4e1f9880b92adb10725.png",
+    "static/media/libook13.png": "/env_sc_library/static/media/libook13.a2fcfd2197a140499965.png",
+    "static/media/libook8.png": "/env_sc_library/static/media/libook8.49862b1a13d0cb5bfe04.png",
+    "static/media/userprofile.jpg": "/env_sc_library/static/media/userprofile.8d832f74f472100ac207.jpg",
+    "static/media/logo1.png": "/env_sc_library/static/media/logo1.58326e6d2e421c555b71.png",
+    "static/media/revicons.eot": "/env_sc_library/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/env_sc_library/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/env_sc_library/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/env_sc_library/index.html",
+    "main.1aa7a24f.css.map": "/env_sc_library/static/css/main.1aa7a24f.css.map",
+    "main.2101abbd.js.map": "/env_sc_library/static/js/main.2101abbd.js.map",
+    "787.194244cc.chunk.js.map": "/env_sc_library/static/js/787.194244cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aa7a24f.css",
+    "static/js/main.2101abbd.js"
+  ]
+}
