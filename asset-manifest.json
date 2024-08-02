@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.css": "/library/static/css/main.a8472e71.css",
-    "main.js": "/library/static/js/main.880f269b.js",
+    "main.css": "/library/static/css/main.ac3127ba.css",
+    "main.js": "/library/static/js/main.e82f27f0.js",
     "static/js/787.798387e2.chunk.js": "/library/static/js/787.798387e2.chunk.js",
+    "static/media/carousel-img-4.jpg": "/library/static/media/carousel-img-4.0df1d9d09d1ecd6ee3f4.jpg",
     "static/media/back-page-bg.jpg": "/library/static/media/back-page-bg.3a56975fa83b746156e6.jpg",
     "static/media/cover-page-bg.jpg": "/library/static/media/cover-page-bg.363ef061644cd958c910.jpg",
+    "static/media/carousel-img-1.jpg": "/library/static/media/carousel-img-1.b1e484f41765d8b56e6c.jpg",
+    "static/media/48LawsOfPower.pdf": "/library/static/media/48LawsOfPower.a7384d9b6bacb58381ad.pdf",
+    "static/media/carousel-img-3.jpg": "/library/static/media/carousel-img-3.7abf4cad5275697ea7bc.jpg",
+    "static/media/pdf.worker.min.mjs": "/library/static/media/pdf.worker.min.6901330330be18554065.mjs",
+    "static/media/img1.jpg": "/library/static/media/img1.9dde56960bf919c88999.jpg",
+    "static/media/carousel-img-2.jpg": "/library/static/media/carousel-img-2.d32b9047789a8969482a.jpg",
     "static/media/Ubuntu.ttf": "/library/static/media/Ubuntu.1cbb1b79a23478cc89ad.ttf",
     "static/media/book5.png": "/library/static/media/book5.53902ae65741c660a994.png",
     "static/media/book2.png": "/library/static/media/book2.714f902674ed0e7fe4c1.png",
@@ -17,7 +24,6 @@
     "static/media/libook7.png": "/library/static/media/libook7.ca8a400fd3cc2037c7a2.png",
     "static/media/book4.png": "/library/static/media/book4.1c21753e1af9d235621c.png",
     "static/media/libook6.png": "/library/static/media/libook6.213590b72f02ca5a2664.png",
-    "static/media/libook1.png": "/library/static/media/libook1.aeaa8ad0535bc1cd8878.png",
     "static/media/libook4.png": "/library/static/media/libook4.e8a2a71a1406845636f1.png",
     "static/media/libook3.png": "/library/static/media/libook3.b140ffca426e5b1bf6a5.png",
     "static/media/libook12.png": "/library/static/media/libook12.cc96b371e4f2040ee914.png",
@@ -30,13 +36,14 @@
     "static/media/revicons.eot": "/library/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/library/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/library/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo1.svg": "/library/static/media/logo1.d735f51efa5df467eb93c7c7ec8589b0.svg",
     "index.html": "/library/index.html",
-    "main.a8472e71.css.map": "/library/static/css/main.a8472e71.css.map",
-    "main.880f269b.js.map": "/library/static/js/main.880f269b.js.map",
+    "main.ac3127ba.css.map": "/library/static/css/main.ac3127ba.css.map",
+    "main.e82f27f0.js.map": "/library/static/js/main.e82f27f0.js.map",
     "787.798387e2.chunk.js.map": "/library/static/js/787.798387e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8472e71.css",
-    "static/js/main.880f269b.js"
+    "static/css/main.ac3127ba.css",
+    "static/js/main.e82f27f0.js"
   ]
 }
