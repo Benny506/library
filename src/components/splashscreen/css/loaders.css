@@ -1,0 +1,47 @@
+/* SplashScreen */
+.splash-screen-container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at center, #F7F7F7, #F7F7F7, #F7F7F7);
+}
+.cover-page-container{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+        url('../../../assets/bookpages/cover-page-bg.jpg');
+}
+.back-page-container{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+        url('../../../assets/bookpages/back-page-bg.jpg');
+}
+.cover-page-header, .back-page-header{
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 700;
+}
+.cover-page-sub-header, .back-page-sub-header{
+    font-family: 'Ubuntu';
+    font-size: 23px;
+    color: #FFF;
+    font-weight: 500;
+}
+.flip-book {
+    display: none;
+    background-size: cover;
+}
+.splash-book-container{
+    border-right: 1px solid gray;
+    background-color: rgb(230, 230, 241);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;    
+}
+.splash-book-text{
+    font-size: 16px;
+    text-align: justify;
+    color: #000;
+    font-weight: 600;
+    line-height: 20px;
+}

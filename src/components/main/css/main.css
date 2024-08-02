@@ -1,0 +1,111 @@
+/* Discover screen  */
+.discover-bg{
+    background-color: #FFF;
+}
+
+.discover-section-container{
+    background-color: #F7F7F7;
+    border-radius: 20px;
+}
+
+.discover-section-header{
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+}
+.discover-single-book-container{
+    transition: all 1s;
+}
+.discover-single-book-container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.discover-book-title{
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */    
+}
+.discover-book-author-name{
+    color: #7A7A7A;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 14.4px */
+}
+.discover-zero-books{
+    color: #7A7A7A;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 14.4px */
+}
+
+
+
+
+/* OffcanvasActiveBook */
+.offcanvas-active-book-bg{
+    background-color: #204148;
+}
+.offcanvas-active-book-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */    
+}
+.offcanvas-active-book-author-text{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */    
+}
+.offcanvas-active-book-preview-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */    
+}
+.offcanvas-active-book-read-btn{
+    border-radius: 10px;
+    background: #21B08E;
+}
+.offcanvas-active-book-read-btn-text{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+
+
+
+/* OffcanvasSearch */
+.offcanvas-active-book-bg{
+    background-color: #204148;
+}
+
+
+
+
+/* Home */
+.home-single-feature-container{
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+}

@@ -1,0 +1,246 @@
+/* font family  */
+.font-family-galada{
+  font-family: Galada;
+}
+.font-family-ubuntu{
+  font-family: Ubuntu;
+}
+
+
+
+/* text colors  */
+.txt-FFF{
+  color: #FFF;
+}
+.txt-000{
+  color: #000;
+}
+.txt-21B08E{
+  color: #21B08E;
+}
+.txt-A71313{
+  color: #a71313;
+}
+.txt-AAAAAA{
+  color: #AAAAAA;
+}
+.txt-F3F3F3{
+  color: #F3F3F3;
+}
+.txt-737373{
+  color: #737373;
+}
+.txt-204148{
+  color: #204148;
+}
+.txt-B2B3CF{
+  color: #B2B3CF;
+}
+
+
+
+/* font weights  */
+.font-weight-300{
+  font-weight: 300;
+}
+.font-weight-400{
+  font-weight: 400;
+}
+.font-weight-500{
+  font-weight: 500;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+.font-weight-700{
+  font-weight: 700;
+}
+.font-weight-800{
+  font-weight: 800;
+}
+.font-weight-900{
+  font-weight: 900;
+}
+
+
+
+
+/* text sizes  */
+.extra-small-txt{
+  font-size: 12px;
+}
+.small-txt{
+  font-size: 14.2px;
+}
+.regular-txt{
+  font-size: 16.4px;
+}
+.medium-txt{
+  font-size: 22px;
+}
+.large-txt{
+  font-size: 26.5px;
+}
+.extra-large-txt{
+  font-size: 32px;
+}
+
+
+
+
+/* backgrounds */
+.bg-000{
+  background-color: #000;
+}
+.bg-FFF{
+  background-color: #FFF;
+}
+.bg-AAAAAA{
+  background-color: #AAAAAA;
+}
+.bg-F3F3F3{
+  background-color: #F3F3F3;
+}
+.bg-F8F6FB{
+  background-color: #F8F6FB;
+}
+.bg-204148{
+  background-color: #204148;
+}
+.bg-9DCCFF{
+  background-color: #9DCCFF;
+}
+.bg-9DCCFF-opacity-_2{
+  background-color: rgba(157, 204, 255, 0.2);
+}
+.bg-252641{
+  background-color: #252641;
+}
+.bg-49BBBD{
+  background-color: #49BBBD;
+}
+.bg-21B08E{
+  background-color: #21B08E;
+}
+
+
+
+/* alert effect */
+.fancy-alert {
+  font-family: Ubuntu;
+  color: white;
+  width: 78px;
+  z-index: 10000;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: fixed;
+  overflow: hidden;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  height: 65px;
+  background-color: gray;
+  transform: scale(0);
+  transition: all .5s;
+
+  &.fancy-alert__active {
+      opacity: 1;
+      top: 20px;
+      transform: scale(1);
+  }
+  &.fancy-alert__extended {
+      width:800px;
+      .fancy-alert--content {
+          opacity: 1;
+          transition: all .5s;
+      }
+      .fancy-alert--words {top: 11px;;opacity: 1;}
+  }
+
+  &.error { 
+      background-color: #D64646;
+  }
+  &.success {
+      background-color:#3CB971;
+  }
+  &.info {
+      background-color: #E8C22C;
+  }
+  
+  a { 
+      color: white;
+      text-decoration: underline;
+  }
+  
+  .fancy-alert--content {
+      padding: 10px; opacity: 0;
+  }
+
+
+  .fancy-alert--words {
+      font-size: 17.6px;
+      font-family: Poppins; 
+      font-weight: 500;
+      padding: 0 18px 0 90px;
+      max-width: 80%;
+      position: relative;
+      top: -50px;
+      opacity: 0;
+      height: 60px;
+      transition: all .3s;
+      transition-delay: .5s;
+  }
+  .fancy-alert--icon {
+      padding: 26px;
+      float:left;
+      background-color: rgba(3, 3, 3, 0.15);
+  }
+}
+
+
+/* Fade Transition */
+
+.fade-appear, .fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active, .fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 250ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+
+
+
+
+/* custom scroll  */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #21B08E;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #204148;
+}

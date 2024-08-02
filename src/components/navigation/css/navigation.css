@@ -1,0 +1,82 @@
+.navigation-container{
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.navigation-title{
+    font-family: 'Galada';
+    font-size: 24.348px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 29.217px */
+    background: linear-gradient(104deg, #21B08E 3.84%, #21B08E 96.51%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navigation-button{
+    border-radius: 5px;
+    background: #21B08E;
+}
+.navigation-button-text{
+    color: #FFF;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */
+}
+.navigation-input-container{
+    border-radius: 10px;
+    border: 1px solid #DCDCDC;
+}
+.navigation_a-z_container{
+    border-radius: 5px;
+    background: #FFF;    
+}
+.navigation-username{
+    color: #7A7A7A;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */    
+}
+
+
+
+/* Offcanvas nav */
+.offcanvas-nav-bg{
+    background-color: #204148;
+}
+.offcanvas-nav-username{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */    
+}
+.offcanvas-nav-usertype-text{
+    color: #21B08E;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */    
+}
+.offcanvas-nav-link{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+
+/* OffcanvasSearch */
+.offcanvas-search-bg{
+    background-color: #F7F7F7;
+}

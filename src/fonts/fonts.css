@@ -1,0 +1,11 @@
+/* File: font.css */
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('CustomFont1Name'),
+         url('./ubuntu/Ubuntu.ttf') format('ttf'),
+}
+@font-face {
+    font-family: 'Galada';
+    src: local('CustomFont2Name'),
+        url('./galada/Galada.ttf') format('ttf'),
+}

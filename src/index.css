@@ -1,0 +1,82 @@
+html{
+  background-color: #FFF;  
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: Galada;
+  src: url("./fonts/galada/Galada.ttf");
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("./fonts/ubuntu/Ubuntu.ttf");
+}
+
+.pointer{
+  cursor: pointer;
+}
+.clickable{
+  cursor: pointer;
+}
+
+.custom-error {
+  color: 'red'
+}
+.img-bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input, select, textarea{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-width: 0px;
+}
+input::placeholder{
+  font-size: 12px;
+}
+input:active{
+  outline: none;
+  border: none;
+}
+select:hover{
+  cursor: pointer;
+}
+option{
+  color: #000;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */  
+}
+button{
+  border-width: 0px;
+}
+input::placeholder{
+  color: #7A7A7A;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */  
+}
+/* .border-right-green{
+  border-right: 1px solid #21B08E;
+  border-radius: 0px 3px;
+} */
