@@ -26,16 +26,16 @@ const Page = React.forwardRef((props, ref) => {
 
 
 
-export default function SplashScreen({}){
+export default function SplashScreen({ setIsLoading }){
     const bookRef = useRef()
 
     useEffect(() => {
         if(bookRef.current){
             const flipInterval = setInterval(() => {
                 bookRef.current?.pageFlip().flipNext()
-                // if(bookRef.current.pageFlip().getCurrentPageIndex() == 5){
-                //     setAllBooks(library_books)
-                // }
+                if(bookRef.current.pageFlip().getCurrentPageIndex() == 5){
+                    setIsLoading(false)
+                }
             }, 1500)
     
             return () => clearInterval(flipInterval);

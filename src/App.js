@@ -28,11 +28,6 @@ function App() {
     if(user_id && accessToken && !userDetails.details){
       initialFetch()
     
-    } else if(userDetails.details) {
-      // goToInitialRoute()
-
-    } else {
-      setIsLoading(false)
     }
   }, [pathname])
 
@@ -69,7 +64,6 @@ function App() {
   const initialFetchSuccess = ({ result }) => {
     try {
       
-      setIsLoading(false)
       goToInitialRoute()
 
       const { data, accessToken } = result
@@ -91,7 +85,6 @@ function App() {
   }
 
   const initialFetchFailure = () => {
-    setIsLoading(false)
     return setUserDetails(prev => ({
       ...prev,
       alertModal: { msg: 'Automatic login failed! Login manually', err: '' }
@@ -100,7 +93,7 @@ function App() {
 
   if(isLoading){
     return (
-      <SplashScreen />
+      <SplashScreen setIsLoading={setIsLoading} />
     )
   }
 
