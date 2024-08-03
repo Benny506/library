@@ -62,7 +62,7 @@ export default function Login({ setUserDetails, setAllBooks }){
 
             setUserDetails(prev => ({
                 ...prev,
-                alertModal: null,
+                alertModal: { initialRoute: true },                
                 details,
                 savedBooks,
                 myNotes,
@@ -72,6 +72,7 @@ export default function Login({ setUserDetails, setAllBooks }){
             return setApiReqs({ isLoading: false, data: null, errorMsg: null })
 
         } catch (error) {
+            console.log(error)
             return loginFailure({ errorMsg: 'Failed to login! Try again later' })
         }
     }

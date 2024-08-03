@@ -32,7 +32,7 @@ export default function SplashScreen({}){
     useEffect(() => {
         if(bookRef.current){
             const flipInterval = setInterval(() => {
-                bookRef.current.pageFlip().flipNext()
+                bookRef.current?.pageFlip().flipNext()
                 // if(bookRef.current.pageFlip().getCurrentPageIndex() == 5){
                 //     setAllBooks(library_books)
                 // }

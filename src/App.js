@@ -36,6 +36,15 @@ function App() {
     }
   }, [pathname])
 
+  useEffect(() => {
+    if(userDetails){
+      const { alertModal } = userDetails
+      if(alertModal && alertModal.initialRoute){
+          goToInitialRoute()
+      }
+    }
+  }, [userDetails])
+
   const initialFetch = async () => {
     try {
       

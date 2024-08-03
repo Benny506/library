@@ -23,8 +23,12 @@ export default function MainRouter({
 
     useEffect(() => {
         if(userDetails){
-
-            setAlertModal(userDetails.alertModal)
+            const { alertModal } = userDetails
+            if(alertModal){
+                if(!alertModal.initialRoute){
+                    setAlertModal(userDetails.alertModal)
+                }
+            }
         }
     }, [userDetails])
     

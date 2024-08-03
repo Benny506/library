@@ -15,7 +15,7 @@ import Login from "./screens/Login";
 const carouselImages = [carouselImg1, carouselImg2, carouselImg3, carouselImg4]
 
 
-export default function AuthRouter({ setUserDetails, userDetails, setAllBooks }){
+export default function AuthRouter({ setUserDetails, userDetails, setAllBooks, }){
 
     const location = useLocation()
     const pathname = location.pathname
@@ -24,8 +24,12 @@ export default function AuthRouter({ setUserDetails, userDetails, setAllBooks })
 
     useEffect(() => {
         if(userDetails){
-
-            setAlertModal(userDetails.alertModal)
+            const { alertModal } = userDetails
+            if(alertModal){
+                if(!alertModal.initialRoute){
+                    setAlertModal(userDetails.alertModal)
+                }
+            }
         }
     }, [userDetails])
 
