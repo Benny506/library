@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/library/static/css/main.ac3127ba.css",
-    "main.js": "/library/static/js/main.46fc5349.js",
+    "main.js": "/library/static/js/main.a5a814b6.js",
     "static/js/787.798387e2.chunk.js": "/library/static/js/787.798387e2.chunk.js",
     "static/media/carousel-img-4.jpg": "/library/static/media/carousel-img-4.0df1d9d09d1ecd6ee3f4.jpg",
     "static/media/back-page-bg.jpg": "/library/static/media/back-page-bg.3a56975fa83b746156e6.jpg",
     "static/media/cover-page-bg.jpg": "/library/static/media/cover-page-bg.363ef061644cd958c910.jpg",
     "static/media/carousel-img-1.jpg": "/library/static/media/carousel-img-1.b1e484f41765d8b56e6c.jpg",
-    "static/media/48LawsOfPower.pdf": "/library/static/media/48LawsOfPower.a7384d9b6bacb58381ad.pdf",
     "static/media/carousel-img-3.jpg": "/library/static/media/carousel-img-3.7abf4cad5275697ea7bc.jpg",
     "static/media/pdf.worker.min.mjs": "/library/static/media/pdf.worker.min.6901330330be18554065.mjs",
     "static/media/img1.jpg": "/library/static/media/img1.9dde56960bf919c88999.jpg",
@@ -39,11 +38,11 @@
     "static/media/logo1.svg": "/library/static/media/logo1.d735f51efa5df467eb93c7c7ec8589b0.svg",
     "index.html": "/library/index.html",
     "main.ac3127ba.css.map": "/library/static/css/main.ac3127ba.css.map",
-    "main.46fc5349.js.map": "/library/static/js/main.46fc5349.js.map",
+    "main.a5a814b6.js.map": "/library/static/js/main.a5a814b6.js.map",
     "787.798387e2.chunk.js.map": "/library/static/js/787.798387e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac3127ba.css",
-    "static/js/main.46fc5349.js"
+    "static/js/main.a5a814b6.js"
   ]
 }
